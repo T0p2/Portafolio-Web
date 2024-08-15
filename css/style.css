@@ -29,6 +29,8 @@ header ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header ul li {
@@ -67,6 +69,7 @@ header ul li a {
 }
 .imagen-presentacion{
     -webkit-text-size-adjust: 100%;
+    width: 100%;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Open Sans',sans-serif;
@@ -129,6 +132,7 @@ header ul li a {
     margin: 20px auto 0;
 }
 .skills {
+    width: 100%;
     padding: 50px 0;
     margin-bottom: 200px;
     background-color: #F5F5F5;
@@ -486,5 +490,30 @@ button.submit-button:focus {
         max-width: 100%;
         margin: 20px auto;
         padding: 0 20px;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .skills-container, .contact {
+        margin: 0 10px; /* Ajusta el margen para dispositivos móviles */
+    }
+
+    .text, .subtext {
+        font-size: 1.5rem; /* Ajusta el tamaño de fuente */
+        width: 90%; /* Ajusta el ancho del contenedor de texto */
+        margin: 20px auto; /* Centra el texto */
+    }
+
+    .hero {
+        margin-bottom: 100px; /* Ajusta el margen inferior */
+    }
+
+    .project-card img {
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    button.submit-button {
+        width: 100%; /* Ajusta el ancho del botón */
+        padding: 12px; /* Ajusta el padding */
     }
 }
