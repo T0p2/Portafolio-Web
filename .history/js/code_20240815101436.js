@@ -2,6 +2,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     event.preventDefault(); // Previene el comportamiento por defecto del formulario
 
     const formData = new FormData(this);
+    const form = this; // Referencia explícita al formulario
 
     fetch('https://portafolio-web-backend-2.onrender.com/contact', { // Reemplaza con la URL de tu backend
         method: 'POST',
