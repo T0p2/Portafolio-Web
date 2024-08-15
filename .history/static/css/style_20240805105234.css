@@ -94,7 +94,6 @@ header ul li a {
     background-color: #FFFFFF;
     margin: 0 auto; /* Remover márgenes fijos para evitar desplazamiento en pantallas pequeñas */
     padding: 20px;
-    margin-bottom: 300px;
 }
 
 .text{
@@ -130,7 +129,7 @@ header ul li a {
 }
 .skills {
     padding: 50px 0;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     background-color: #F5F5F5;
     color: #000000;
 }
