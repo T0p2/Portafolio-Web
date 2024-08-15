@@ -69,7 +69,6 @@ header ul li a {
 }
 .imagen-presentacion{
     -webkit-text-size-adjust: 100%;
-    width: 100%;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Open Sans',sans-serif;
@@ -93,6 +92,8 @@ header ul li a {
     margin: -343px auto 0;
 }
 .hero {
+    width: 100%;
+
     text-align: center;
     background-color: #FFFFFF;
     margin: 0 auto; /* Remover márgenes fijos para evitar desplazamiento en pantallas pequeñas */
@@ -494,6 +495,10 @@ button.submit-button:focus {
 }
 /* Media Queries */
 @media (max-width: 768px) {
+    .imagen-presentacion{
+        width: 200px;
+        height: 200px;
+    }
     .skills-container, .contact {
         margin: 0 10px; /* Ajusta el margen para dispositivos móviles */
     }
