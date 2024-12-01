@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-  className="bg-gradient-to-t from-gray-800 to-black text-white py-60"
+  className="bg-gradient-to-t from-gray-800 to-black text-white py-50"
   id="contact"
 >
   <div className="max-w-4xl mx-auto px-6">

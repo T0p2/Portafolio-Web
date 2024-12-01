@@ -5,7 +5,7 @@ const Skills = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-gray-900 via-gray-00 to-black text-white py-20"
+      className="bg-gradient-to-b from-gray-900 via-gray-800 to-blue text-white py-20"
       id="skills"
       data-aos="fade-up"
       data-aos-duration="1000"

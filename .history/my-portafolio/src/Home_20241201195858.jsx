@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div
-      className="bg-gradient-to-b from-gray-800 to-black text-white min-h-[65vh] flex items-center justify-center px-4"
+      className="bg-gradient-to-b from-gray-800 to-black text-white min-h-[50vh] flex items-center justify-center px-4"
       id="home"
     >
       <div className="text-center space-y-6" data-aos="fade-up" data-aos-duration="1000">
@@ -15,7 +15,7 @@ const Home = () => {
         </p>
         <button
           className="bg-red-500 text-white py-2 px-6 rounded-lg hover:bg-red-600 transition duration-300 transform hover:scale-105"
-          onClick={() => document.getElementById('about-me').scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
           data-aos="zoom-in"
           data-aos-delay="600"
         >

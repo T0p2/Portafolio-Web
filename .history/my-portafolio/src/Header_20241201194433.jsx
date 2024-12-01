@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 w-full bg-gray-900 text-white py-9 shadow-md z-20">
+    <nav className="fixed top-0 w-full bg-gray-900 text-white py-4 shadow-md z-20">
       <ul className="flex justify-center space-x-8">
         <li>
           <Link
@@ -13,16 +13,6 @@ const Header = () => {
             className="cursor-pointer hover:text-red-500 transition"
           >
             Inicio
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="about-me"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-red-500 transition"
-          >
-            AboutMe
           </Link>
         </li>
         <li>

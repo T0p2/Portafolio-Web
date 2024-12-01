@@ -17,16 +17,6 @@ const Header = () => {
         </li>
         <li>
           <Link
-            to="about-me"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-red-500 transition"
-          >
-            AboutMe
-          </Link>
-        </li>
-        <li>
-          <Link
             to="skills"
             smooth={true}
             duration={500}

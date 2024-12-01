@@ -15,7 +15,7 @@ const Home = () => {
         </p>
         <button
           className="bg-red-500 text-white py-2 px-6 rounded-lg hover:bg-red-600 transition duration-300 transform hover:scale-105"
-          onClick={() => document.getElementById('about-me').scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
           data-aos="zoom-in"
           data-aos-delay="600"
         >

@@ -9,10 +9,8 @@ const Projects = () => {
 
   return (
     <div
-    className="relative bg-gradient-to-b from-gray-800 to-black text-white py-80 overflow-hidden"
+    className="relative bg-gradient-to-b from-gray-800 to-black text-white py-20 overflow-hidden"
     id="projects"
-    data-aos="fade-up"
-    data-aos-duration="1000"
   >
     <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-transparent opacity-10 animate-pulse"></div>
     <div className="max-w-6xl mx-auto px-6">

@@ -22,7 +22,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer hover:text-red-500 transition"
           >
-            AboutMe
+            About Me
           </Link>
         </li>
         <li>
